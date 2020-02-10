@@ -22,7 +22,7 @@ git clone https://github.com/alexxxonline/xc-claims-telegram.git
 Edit claims.sh and change the path for "OLD" "NEW" "OUT"
 
 
-## *
+## About
 
 The script is pulling the mag_claims table from XC Database and adds it to $OLD file, then using cmp compares the files $OLD > $NEW. If the files are different it adds the extra lines to $OUT, sends the message using telegram-send, adds the new lines to $NEW (to avoid getting the same claims again) and clears the $OUT
 
