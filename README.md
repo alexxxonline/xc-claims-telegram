@@ -14,6 +14,11 @@ Use [pip](https://pip.pypa.io/en/stable/) to install telegram-send.
 pip install telegram-send
 ```
 Clone the repo or download it to your desired location
+
+```bash
+git clone https://github.com/alexxxonline/xc-claims-telegram.git
+```
+
 Edit claims.sh and change the path for "OLD" "NEW" "OUT"
 
 
